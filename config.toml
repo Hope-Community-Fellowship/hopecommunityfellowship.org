@@ -1,0 +1,146 @@
+baseURL = "https://hopecommunityfellowship.org"
+languageCode = "en-us"
+title = "Hope Community Fellowship"
+theme = "alpha-church"
+themesDir = "themes"
+
+rssLimit = 5
+paginate = 4
+
+enableEmoji = true
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "UA-93095505-1"
+
+enableInlineShortcodes = true
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[taxonomies]
+  tag = "tags"
+  preacher = "preachers"
+  series = "series"
+
+#This theme can generate a multi-level menu.
+#Use weight= to specify the order of menu items, and parent= to create a submenu item.
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "What to expect"
+    url = "/whattoexpect"
+    weight = 3
+
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 4
+
+  [[menu.main]]
+    name = "About Us"
+    parent = "About"
+    url = "/about"
+    weight = 1
+ [[menu.main]]
+    name = "Sermon Notes"
+    parent = "About"
+    url = "/sermonnotes"
+    weight = 3
+  [[menu.main]]
+    name = "What We Believe"
+    parent = "About"
+    url = "/whatwebelieve"
+    weight = 4
+
+  [[menu.main]]
+    name = "Mission Statement"
+    url = "/missionstatement"
+    weight = 5
+
+  [[menu.main]]
+    name = "Good News"
+    url = "/goodnews"
+    weight = 2
+
+  [[menu.main]]
+    name = "Contact Us"
+    url = "/contact"
+    weight = 4
+
+# Paramaters for the whole site
+[params]
+  title = "Hope Community Fellowship"
+  subtitle = "Holding forth the faith that is founded in the facts."
+  author = "David McClellan"
+  keywords = ["theme", "hugo", "podcast"]
+  languageCode = "en" # For accessibility this needs to be set. You can find all language codes at https://www.w3schools.com/tags/ref_language_codes.asp
+  bible_popups = "faithlife" #faithlife, blb
+  bible_version = "ESV" #HCSB, NIV, NLT, ESV, etc.
+  instant_page = true
+
+  customCSS = ["example.css"]
+
+  [params.favicon]
+    sml = "/example16.png"
+    med = "/example32.png"
+    #lge = "example96.png"
+
+  [params.banner]
+    image = "img/banner.jpg"
+
+#  [params.style]
+#    googleFonts = ["Cardo", "Crimson+Text", "Merriweather", "Playfair+Display:400,700", "Roboto+Slab"]
+
+  [params.podcast]
+    title = "Listen to Alpha Church"
+    summary = "Alpha-Church sermons, talks, messages—podcasted."
+    email = "test@example.com"
+    copyright = "The files in the podcast are in the public domain."
+    image = "img/podcast-cover.jpg"
+    category = "Religion & Spirituality"
+    sub_category = "Christianity"
+    iTunes = "https://itunes.apple.com/us/podcast/tgc-word-of-the-week/id1034013280"
+    feed = "https://www.thegospelcoalition.org/podcasts/word-of-the-week/feed/?feed=podcast"
+    spotify = "https://open.spotify.com/show/1iE3aJkf8fJ2FVTvJGFd4h"
+
+  [params.map]
+    service = "osm" #"osm" for OpenStreetMaps, "google" for Google Maps, or "mapbox" for Mapbox, see SETUP.md
+    latitude = "44.06024181551744"
+    longitude = "-73.29052538667707"
+    zoom = "18"
+
+  [params.contact]
+    #Use this section to automate contact form.
+    #Set service to either "netlify", "formspree" or "php"
+    #For formspree, please setup an account at https://formspree.io/
+    #For netlify, please read https://www.netlify.com/docs/form-handling/
+    #
+    #If you use netlify, you'll need to set the confirm_page value (otherwise users will see a generic netlify response)
+    #If you use formspree, you'll need to set your formspree form_id.
+    #
+    #If you use php, you need to host this site on a Server capable of running php.
+    # Please edit the /static/contact_mail.php file from the exampleSite.
+    service = "netlify" #or "formspree" or "php"
+    confirm_page = "/contact_thanks" #only used by netlify
+    # formspree_formid="" #only used by formspree
+
+
+    [params.footer]
+      copyright = ["Copyright 2022 Hope Community Fellowship - All Rights Reserved"
+                  ]
+
+    [[params.links]]
+      service = "Twitter"
+      icon = "fa-twitter"
+      icon_pack = "fab"
+      link = "//twitter.com/@HCFChurchVT"
+
+    [[params.links]]
+      service = "Facebook"
+      icon = "fa-facebook"
+      icon_pack = "fab"
+      link = "//www.facebook.com/groups/505383276205793"
+
