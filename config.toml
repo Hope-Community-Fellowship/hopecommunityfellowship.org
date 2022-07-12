@@ -1,4 +1,4 @@
-baseURL = "https://hope-community-fellowship.github.io/hopecommunityfellowship.org/"
+baseURL = "https://hcftesting.hacdan.org/"
 languageCode = "en-us"
 title = "Hope Community Fellowship"
 theme = "alpha-church"
