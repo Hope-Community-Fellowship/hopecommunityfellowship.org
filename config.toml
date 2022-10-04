@@ -33,22 +33,22 @@ enableInlineShortcodes = true
     name = "What to expect"
     url = "/whattoexpect"
     weight = 3
-
+# Commented out as page is still under construction
   [[menu.main]]
     name = "About"
-    url = "/about"
+#    url = "/about"
     weight = 4
 
-  [[menu.main]]
-    name = "About Us"
-    parent = "About"
-    url = "/about"
-    weight = 1
- [[menu.main]]
-    name = "Sermon Notes"
-    parent = "About"
-    url = "/sermonnotes"
-    weight = 3
+#  [[menu.main]]
+#    name = "About Us"
+#    parent = "About"
+#    url = "/about"
+#    weight = 1
+# [[menu.main]]
+#    name = "Sermon Notes"
+#    parent = "About"
+#    url = "/sermonnotes"
+#    weight = 3
   [[menu.main]]
     name = "What We Believe"
     parent = "About"
