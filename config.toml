@@ -10,7 +10,7 @@ paginate = 4
 enableEmoji = true
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = "UA-93095505-1"
+googleAnalytics = ""
 
 enableInlineShortcodes = true
 
@@ -74,7 +74,7 @@ enableInlineShortcodes = true
 [params]
   title = "Hope Community Fellowship"
   subtitle = "Holding forth the faith that is founded in the facts."
-  author = "David McClellan"
+  Author.name = "David McClellan"
   keywords = ["theme", "hugo", "podcast"]
   languageCode = "en" # For accessibility this needs to be set. You can find all language codes at https://www.w3schools.com/tags/ref_language_codes.asp
   bible_popups = "faithlife" #faithlife, blb
