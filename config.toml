@@ -95,7 +95,7 @@ enableInlineShortcodes = true
 #    googleFonts = ["Cardo", "Crimson+Text", "Merriweather", "Playfair+Display:400,700", "Roboto+Slab"]
 
   [params.podcast]
-    title = "Listen to Alpha Church"
+    title = "Listen to Hope Community Fellowship"
     summary = "Alpha-Church sermons, talks, messages—podcasted."
     email = "test@example.com"
     copyright = "The files in the podcast are in the public domain."
@@ -129,7 +129,7 @@ enableInlineShortcodes = true
 
 
     [params.footer]
-      copyright = ["Copyright 2022 Hope Community Fellowship - All Rights Reserved"
+      copyright = ["Copyright 2024 Hope Community Fellowship - All Rights Reserved"
                   ]
 
     [[params.links]]
