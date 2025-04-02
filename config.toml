@@ -5,7 +5,11 @@ theme = "alpha-church"
 themesDir = "themes"
 
 rssLimit = 5
-paginate = 4
+
+[pagination]
+  disableAliases = false
+  pagerSize = 10
+  path = 'page'
 
 enableEmoji = true
 
